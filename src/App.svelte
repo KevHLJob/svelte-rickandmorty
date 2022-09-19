@@ -38,4 +38,6 @@
       <Character {character} />
     {/each}
   </div>
+
+  
 </div>
