@@ -1,6 +1,6 @@
 body{
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    color: white;
+    background: #34cccc;
+    color:rgb(247, 247, 247);
 }
 
 .title{
@@ -56,22 +56,19 @@ justify-content: space-evenly;
 
  }
 
-/* phones */ /*ERROR CON EL GRID  */
- @media only screen and (max-width: 340px){
+ @media only screen and (max-width: 400px){
     .container{
         max-width: 300px;
         height: 10rem;
     }
 .title{
-    font-size: 5rem;
+    font-size: 3rem;
 }
 .grid{
-    grid-template-columns: auto;
+    display: grid;
+    grid-template-columns: none;
 }
-
-.character img{
-    width: 5rem;
-    height: 5rem;
+.character{
+    margin-bottom: 2rem;
 }
-
  }
