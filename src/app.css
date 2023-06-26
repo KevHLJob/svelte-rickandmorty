@@ -85,30 +85,33 @@ body {
 
 /* Mobile*/
 @media only screen and (max-width: 425px) and (min-width: 320px) {
-    .container{
-       max-width: 400px;
-       
+    .container {
+        max-width: 400px;
+
     }
-    .title{
+
+    .title {
         font-size: 2.3rem;
     }
-    .btn{
+
+    .btn {
         font-size: 1rem;
     }
-    
+
     .grid {
         grid-template-columns: none;
         justify-content: center;
     }
 
-    .character{
+    .character {
         width: 15rem;
         text-align: center;
-        
+
     }
+
     .character img {
         margin-bottom: 2rem;
         width: 15rem;
     }
-   
+
 }
